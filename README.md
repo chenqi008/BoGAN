@@ -19,6 +19,17 @@ Download Text--to--Video Generation dataset:
 
 ## Training
 
+Stage I: Optimise the alignment model in DAMSM, e.g., for SBMG dataset:
 ```
-bash pp
+bash run_one.sh
+```
+
+Stage II: Optimise the generator and discriminators in BoGAN, e.g., for SBGM dataset:
+```
+bash run_one.sh
+```
+
+## Testing
+```
+bash run_test_one.sh
 ```
