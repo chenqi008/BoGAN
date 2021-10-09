@@ -16,3 +16,9 @@ Download Text--to--Video Generation dataset:
 1. [Text--to--Video Generation (Baidu Yun)](https://pan.baidu.com/s/1DfiPH5R1i4KDs7htWKaAmg) Password: z69q
 
 2. [Text--to--Video Generation (Google Drive)](https://drive.google.com/drive/folders/1ozFofJ_qEjQ-O9BvOaBj2bDF-oAbvH2n?usp=sharing)
+
+## Training
+
+"""
+bash pp
+"""
