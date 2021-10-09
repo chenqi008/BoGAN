@@ -19,6 +19,6 @@ Download Text--to--Video Generation dataset:
 
 ## Training
 
-"""
+```
 bash pp
-"""
+```
