@@ -146,7 +146,7 @@ class _G(torch.nn.Module):
 
         self.fc = torch.nn.Sequential(
             # torch.nn.Linear(self.args.z_size+self.args.hidden_size, 1024, bias=False),  # 64x(100+256)->64x1024
-            torch.nn.Linear(self.args.z_size+100, 1024, bias=False),  # 64x(100+256)->64x1024
+            torch.nn.Linear(self.args.z_size+256, 1024, bias=False),  # 64x(100+256)->64x1024
             torch.nn.BatchNorm1d(1024),
             torch.nn.ReLU(inplace=True),
             torch.nn.Linear(1024, 512 * 2 * (self.args.imageSize // 8) * (self.args.imageSize // 8), bias=False),  # 64x1024->64x(512x2x8x8)
